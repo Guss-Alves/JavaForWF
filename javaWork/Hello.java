@@ -4,9 +4,13 @@ public class Hello{
         // System.out.println("hello world");
         String firstName = "Gustavo";
         String lastName = "Alves";
-
         String result = firstName + " " + lastName;
         System.out.println(result);
-        System.out.println("u got it");
+        System.out.println(String.format("u got it %s", firstName));
+        // System.out.println();
+
+        }
+        public static void greeting(String name){
+
+        }
     }
-} 
