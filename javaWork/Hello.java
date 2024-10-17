@@ -8,9 +8,8 @@ public class Hello{
         System.out.println(result);
         System.out.println(String.format("u got it %s", firstName));
         // System.out.println();
-
-        }
-        public static void greeting(String name){
-
+        for(int i = 0; i <= 10; i++){
+            System.err.printf("Looping through the number ->  %s \n", i);
         }
     }
+}
